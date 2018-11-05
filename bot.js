@@ -70,7 +70,7 @@ client.on('guildMemberAdd',async member => {
 client.on('guildMemberAdd',async member => {
   if(member.guild.id !== '503517419952799749') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '507822459131789313').send('**Welcome to Arrival.** ');
+  member.guild.channels.find(r => r.id === '507822459131789313').send('Welcome To **Sword** .. ');
 },3000);
 });
 
