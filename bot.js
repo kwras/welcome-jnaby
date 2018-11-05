@@ -53,17 +53,7 @@ client.on('guildMemberAdd',async member => {
 },3000);
 });
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag} !`);
- 
-});
- 
-client.on('guildMemberAdd',async member => {
-  if(member.guild.id !== '505503857208459264') return;
-  setTimeout(function(){
-  member.guild.channels.find(r => r.id === '505526727108198411').send('**Welcome To Stúnning  . **');
-},3000);
-});
+
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag} !`);
