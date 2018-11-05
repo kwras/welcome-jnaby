@@ -67,5 +67,13 @@ client.on('guildMemberAdd',async member => {
 },3000);
 });
 
+client.on('guildMemberAdd',async member => {
+  if(member.guild.id !== '503517419952799749') return;
+  setTimeout(function(){
+  member.guild.channels.find(r => r.id === '507822459131789313').send('**Welcome to Arrival.** ');
+},3000);
+});
+
+
 
 client.login(process.env.BOT_TOKEN);
