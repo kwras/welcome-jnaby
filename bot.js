@@ -8,7 +8,7 @@ client.on('ready', () => {
 });
  
 client.on('guildMemberAdd',async member => {
-  if(member.guild.id !== '504006929664835607') return;
+  if(member.guild.id !== '484154163232768001') return;
   setTimeout(function(){
   member.guild.channels.find(r => r.id === '504006929664835607').send('**Welcome To Effect.**');
 },3000);
@@ -21,7 +21,7 @@ client.on('ready', () => {
 });
  
 client.on('guildMemberAdd',async member => {
-  if(member.guild.id !== '504006929664835607') return;
+  if(member.guild.id !== '484154163232768001') return;
   setTimeout(function(){
   member.guild.channels.find(r => r.id === '504006929664835607').send('**Welcome To Effect..**');
 },3000);
