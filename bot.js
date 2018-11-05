@@ -23,7 +23,7 @@ client.on('ready', () => {
 client.on('guildMemberAdd',async member => {
   if(member.guild.id !== '484154163232768001') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '504006929664835607').send('**Welcome To Effect.**');
+  member.guild.channels.find(r => r.id === '504006929664835607').send('**Weelcome To Effect.**');
 },3000);
 });
 
@@ -70,7 +70,7 @@ client.on('guildMemberAdd',async member => {
 client.on('guildMemberAdd',async member => {
   if(member.guild.id !== '503517419952799749') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '507822459131789313').send('Welcome To **Sword** .. ');
+  member.guild.channels.find(r => r.id === '508959687895678976').send('Welcome To **Sword** .. ');
 },3000);
 });
 
