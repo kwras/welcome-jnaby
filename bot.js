@@ -20,7 +20,7 @@ client.on('guildMemberAdd',async member => {
 
 
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag} !`);
+  console.log(`Logged in as Energy ${client.user.tag} !`);
  
 });
  
