@@ -1,6 +1,17 @@
-﻿  const Discord = require("discord.js");
+const Discord = require("discord.js");
 const client = new Discord.Client();
 
+client.on('ready', () => {
+  console.log(`Logged in as Energy ${client.user.tag} !`);
+ 
+});
+ 
+client.on('guildMemberAdd',async member => {
+  if(member.guild.id !== '501419525661786122') return;
+  setTimeout(function(){
+  member.guild.channels.find(r => r.id === '509751878607962132').send('**Welcome To Effect..**');
+},6000);
+});
 
 client.on('ready', () => {
   console.log(`Logged in as Efecct. ${client.user.tag} !`);
