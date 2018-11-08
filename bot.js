@@ -8,9 +8,9 @@ client.on('ready', () => {
 });
  
 client.on('guildMemberAdd',async member => {
-  if(member.guild.id !== '501419525661786122') return;
+  if(member.guild.id !== '509751878607962132') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '509751878607962132').send('You`re In  **Energy**  Welcome ..');
+  member.guild.channels.find(r => r.id === '501419525661786122').send('You`re In  **Energy**  Welcome ..');
 },3000);
 });
 
