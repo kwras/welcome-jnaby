@@ -27,17 +27,7 @@ client.on('message', message => {
   });
 
   
- client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag} !`);
- 
-});
- 
-client.on('guildMemberAdd',async member => {
-  if(member.guild.id !== '501419525661786122') return;
-  setTimeout(function(){
-  member.guild.channels.find(r => r.id === '509751878607962132').send('You`re In  **Energy**  Welcome ..');
-},5000);
-});
+
   
 
 client.on('ready', () => {
