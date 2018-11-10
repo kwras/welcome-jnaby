@@ -36,9 +36,9 @@ client.on('ready', () => {
 });
  
 client.on('guildMemberAdd',async member => {
-  if(member.guild.id !== '462347265747451914') return;
+  if(member.guild.id !== '492406462476451840') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '492406462476451840').send('**Welcome to Bubbles Tumblr**');
+  member.guild.channels.find(r => r.id === '462347265747451914').send('**Welcome to Bubbles Tumblr**');
 },3000);
 });
 
@@ -50,7 +50,7 @@ client.on('ready', () => {
 client.on('guildMemberAdd',async member => {
   if(member.guild.id !== '497797549118193684') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '503653288999125012').send('**Welcome to Sùgar.**');
+  member.guild.channels.find(r => r.id === '510617430796533766').send('**Welcome to Sùgar.**');
 },3000);
 });
 
